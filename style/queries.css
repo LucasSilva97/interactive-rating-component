@@ -1,0 +1,36 @@
+@media (max-width: 420px){
+    section{
+        height: 500px;
+    }
+    .initialContainer{
+        max-width: 85vw;
+        height: 90%;
+        top: 25%;
+        font-size: 15px;
+    }
+
+    .buttonsNumber{
+        width: 45px;
+        height: 50px;
+        padding: 5px;
+        margin-right: 5px;
+        line-height: 40px;
+        font-size: 20pt;
+    }
+
+    #btnSubmit{
+        margin-top: 3rem;
+        font-size: 12pt;
+    }
+
+    .messageRating{
+        width: 80%;
+        height: 100%;
+        top: 40px;
+    }
+
+    #result{
+        width: 100%;
+        font-size: 12pt;
+    }
+}

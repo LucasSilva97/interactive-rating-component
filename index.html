@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/frames.css">
+  <link rel="stylesheet" href="./style/queries.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor, By Lucas Santana | Interactive rating component</title>
+
+</head>
+<body>
+      <section class="section">
+        <div class="initialContainer" id="initial-container">
+
+        <img src="./images/icon-star.svg" alt="Icon star" class="starContainer">
+        <h1 class="titleContainer">How did we do?</h1>
+
+      <legend class="legends">Please let us know how we did with your support request.
+       All feedback is appreciated 
+      to help us improve our offering!</legend>
+
+  <ul id="unorderedList">
+    <li class="buttonsNumber" id="number-one"value="1">1</li>
+        <li class="buttonsNumber" id="number-two" value="2">2</li>
+          <li class="buttonsNumber" id="number-three" value="3">3</li>
+            <li class="buttonsNumber" id="number-four" value="4">4</li>
+              <li class="buttonsNumber" id="number-five" value="5">5</li>
+      <button type="button" id="btnSubmit">SUBMIT</button>
+  </ul>
+      </div>
+
+      <!-- Rating state end 
+     Thank you state start -->
+
+      </section>
+      <div class="messageRating" id="container-final">
+
+        <img id="image-rating" src="./images/illustration-thank-you.svg" alt="illustration thank you">
+        <h4 id="result"><span id="informedValue" value="0"></span></h1> 
+        <h2>Thank you!</h2>
+       <legend class="legends"> We appreciate you taking the time to give a rating. If you ever need more support, 
+       don’t hesitate to get in touch!</legend> 
+    </div>
+
+    <footer>
+      <div class="attribution">
+        <h5>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></h5> 
+        <h5>Coded by Lucas Santana</h5>
+        <a  href="https://www.linkedin.com/in/lucas-santana-342a02117/" target="_blank" >
+        <img src="./images/linkedin.png" id="link-linkedin" alt="linkedin icon">
+        </a>
+        <a href="https://github.com/LucasSilva97" target="_blank">
+        <img src="./images/github.png"  id="link-github" alt="linkedin icon">
+        </a>
+
+      </div>
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

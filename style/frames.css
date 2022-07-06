@@ -1,0 +1,42 @@
+@keyframes starRotate {
+    0%{transform: rotate(1deg);}
+    50%{transform: rotate(10deg)}
+    100%{transform: rotate(360deg)}
+}
+
+@keyframes mouseEnterButtonSubmit {
+    from{
+        background: transparent;
+    }
+    to{
+        background-color: #fff;
+        color: hsl(25, 97%, 53%);
+        width: 85%
+    }
+}
+
+@keyframes mouseOutButtonSubmit {
+    from{
+      width: 85%;
+    }
+    to{
+        background-color: hsl(25, 97%, 53%);
+        color: #FFFFFF;
+        width: 50%
+    }
+}
+
+@keyframes hoverNumbers {
+    from{
+        background-color:rgba(255, 255, 255, 0.2);
+    }
+    to{
+        background-color:rgba(255, 255, 255, 0.5);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes showContainer{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
